@@ -24,11 +24,16 @@
       "dom"
     ]
   },
+  
   "angularCompilerOptions": {
     "disableTypeScriptVersionCheck": true,
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
     "strictTemplates": true
-  }
+  },
+  "exclude": [
+    "cypress/**/*.ts",
+    "cypress.config.ts"
+  ]
 }

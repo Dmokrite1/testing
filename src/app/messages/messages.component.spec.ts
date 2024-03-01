@@ -47,5 +47,5 @@ describe('MessagesComponent', () => {
         clearButton.click();
   
         expect(messageService.messages).toEqual([]);
-      });     
+    });     
 });
